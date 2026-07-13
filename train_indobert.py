@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trai
 import torch
 from torch.utils.data import Dataset
 
-# Load dataset
+# ambil dataset
 df = pd.read_csv('dataset.csv')
 print("Jumlah data per label:")
 print(df['label'].value_counts())
